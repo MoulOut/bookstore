@@ -1,0 +1,17 @@
+@import url('styles/header.css');
+:root {
+  --branco: #fff;
+  --cor-fundo: #fff8f2;
+  --cor-primaria: #9ad3cf;
+  --cor-preta: #373737;
+
+  --heading-font: 'Violet sans';
+}
+
+body {
+  background-color: var(--cor-fundo);
+}
+
+h1 {
+  background-color: white;
+}

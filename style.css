@@ -1,11 +1,10 @@
 @import url('styles/header.css');
 :root {
-  --branco: #fff;
-  --cor-fundo: #fff8f2;
+  --cor-fundo: #c4c4c4;
   --cor-primaria: #9ad3cf;
   --cor-preta: #373737;
-
-  --heading-font: 'Violet sans';
+  --laranja: #eb9800;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
 }
 
 body {

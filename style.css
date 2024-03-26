@@ -2,9 +2,11 @@
 @import url('styles/banner.css');
 @import url('styles/carrossel.css');
 @import url('styles/topics.css');
+@import url('styles/contact.css');
+@import url('styles/footer.css');
 
 :root {
-  --cor-fundo: #EBECEE;
+  --cor-fundo: #ebecee;
   --cor-primaria: #9ad3cf;
   --cor-preta: #373737;
   --laranja: #eb9800;

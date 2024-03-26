@@ -3,11 +3,12 @@
 @import url('styles/carrossel.css');
 
 :root {
-  --cor-fundo: #c4c4c4;
+  --cor-fundo: #EBECEE;
   --cor-primaria: #9ad3cf;
   --cor-preta: #373737;
   --laranja: #eb9800;
   --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --azul: #002f52;
 
   --fonte-principal: 'Poppins';
 }

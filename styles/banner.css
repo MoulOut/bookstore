@@ -20,7 +20,7 @@
     border: 1px solid white;
     border-radius: 1.5em;
     padding: 1em;
-    width: 100%;
+    width: 90%;
 }
 
 .banner__pesquisa::placeholder {
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen {
+@media screen and (min-width: 1728px) {
     .banner__pesquisa {
         width: 35%;
     }

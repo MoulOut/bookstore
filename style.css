@@ -6,22 +6,22 @@
 @import url('styles/footer.css');
 
 :root {
-  --cor-fundo: #ebecee;
-  --cor-primaria: #9ad3cf;
-  --cor-preta: #373737;
-  --laranja: #eb9800;
-  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
-  --azul: #002f52;
-  --cinza: #858585;
-  --cinza-secundario: #474646;
+    --cor-fundo: #ebecee;
+    --cor-primaria: #9ad3cf;
+    --cor-preta: #373737;
+    --laranja: #eb9800;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --azul: #002f52;
+    --cinza: #858585;
+    --cinza-secundario: #474646;
 
-  --fonte-principal: 'Poppins';
-  --fonte-secundaria: 'Josefin Sans';
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Josefin Sans';
 }
 
 body {
-  background-color: var(--cor-fundo);
-  font-family: var(--fonte-principal);
-  font-size: 16px;
-  font-weight: 400;
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }

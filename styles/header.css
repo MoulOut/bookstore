@@ -101,7 +101,16 @@
     display: none;
   }
 
-  .cabecalho__hamburguer{
+  .cabecalho__hamburguer {
+    display: none;
+  }
+
+  .opcoes__botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .opcoes__botao{
     display: none;
   }
 }

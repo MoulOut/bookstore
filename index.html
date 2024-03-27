@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
@@ -43,13 +47,27 @@
           </li>
         </ul>
         <img src="img/Logo.svg" alt="Logo do site" class="container__imagem" />
+        <h1 class="container__titulo">
+          <b class="container__titulo-negrito">Book</b>Store
+        </h1>
       </div>
+
+      <ul class="opcoes">
+        <li class="opcoes__item">Categorias</li>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Favoritos</a>
+        </li>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Minha Estante</a>
+        </li>
+      </ul>
+
       <div class="container">
         <a href="#"
           ><img
             src="img/Favoritos.svg"
             alt="Meus Favoritos"
-            class="container__imagem"
+            class="container__imagem container__imagem-favorito"
         /></a>
         <a href="#"
           ><img
@@ -65,6 +83,7 @@
         /></a>
       </div>
     </header>
+
     <section class="banner">
       <h2 class="banner__titulo">You already know where to start?</h2>
       <p class="banner__texto">
@@ -216,10 +235,14 @@
       <p class="contato__texto">
         Atualizations of e-books,new books,on sales and others.
       </p>
-      <input type="email" placeholder="Register your e-mail" class="contato__email" />
+      <input
+        type="email"
+        placeholder="Register your e-mail"
+        class="contato__email"
+      />
     </section>
 
-    <hr/>
+    <hr />
 
     <footer class="rodape">
       <h2 class="rodape__titulo">MoulOut</h2>

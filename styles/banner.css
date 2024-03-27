@@ -38,11 +38,7 @@
     font-size: 36px;
   }
 
-  .banner__pesquisa{
+  .banner__pesquisa {
     width: 50vh;
-  }
-
-  .banner__pesquisa::placeholder{
-    background-position: 4.5em;
   }
 }
